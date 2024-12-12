@@ -1,11 +1,12 @@
 import "./App.css"
 import "./constants"
+import TaskRow from "./TaskRow"
 
-export default function TaskTable() {
+export default function TaskTable({tasks, setTasks}) {
 
 return(
     <>
-    <div></div>
+    {tasks.map(task => <TaskRow task={task} setTasks={setTasks}/>)}
     </>
 )
 }
