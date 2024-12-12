@@ -10,10 +10,12 @@ export default function InputForm({setTodo, setTasks, tasks, todo}) {
     return(
         <div className="todo-input-form">
          <div>Input your todo:</div>
+         <div className="input-form-button">
          <input type="text" onChange={event => {setTodo(event.target.value)}}></input>
          <button 
          onClick={onClickHandler}
          >Submit</button>
+         </div>
         </div>
     )
 }

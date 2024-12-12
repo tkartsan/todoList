@@ -9,7 +9,7 @@ export default function TaskRow({task, setTasks}) {
 
 
     return (
-        <div key={task.id}>
+        <div key={task.id} className="row-output">
             <>
             {task.title} 
             <input type='checkbox' checked={task.completed} onChange={checkToggle}/>

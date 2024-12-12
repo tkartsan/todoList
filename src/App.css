@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 5px;
 }
 
 .todo-input-form {
@@ -10,4 +11,21 @@
   flex-direction: column;
   gap: 15px;
   width: 250px;
+}
+
+.filter-tasks {
+  display: flex;
+  gap: 20px;
+}
+
+.row-output {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.input-form-button {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
